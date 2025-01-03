@@ -1,0 +1,71 @@
+div#bandeau {
+	width:1000px;
+	height:100px;
+	background-color:green;
+	}
+div#contenu {
+	width:1000px;
+	height:2200px;
+	background-color:ghostwhite;
+	}
+div#piedpage {
+	width:1000px;
+	height:100px;
+	background-color:green;
+	
+	}
+div#menu {
+	float:left;
+	width:200px;
+	height:2200px;
+	background-color:white;
+	}
+
+	
+	#texte {
+  font-size: 2rem;
+  color: #3498db;
+  opacity: 0; /* Caché au départ */
+  transform: translateY(-50px); /* Légèrement au-dessus */
+}
+
+/* Animation ajoutée */
+.texte-anime {
+  animation: apparaitre 3s ease-out backwards; /* Animation sans boucle */
+}
+
+/* Définir l'animation */
+@keyframes apparaitre {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px); /* Départ au-dessus */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); /* Arrivé à sa position normale */
+  }
+}
+
+#texte {
+  font-size: 2rem;
+  color: #3498db;
+  opacity: 0; /* Caché au départ */
+  transform: translateX(-50px); 
+}
+
+/* Animation ajoutée */
+.texte-anime1 {
+  animation: apparaitre 6s ease-out backwards; /* Animation sans boucle */
+}
+
+/* Définir l'animation */
+@keyframes apparaitre {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px); /* Départ au-dessus */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px); /* Arrivé à sa position normale */
+  }
+}
